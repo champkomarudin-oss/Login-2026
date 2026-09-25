@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | Perpustakaan Digital Komar</title>
+
+    <link rel="stylesheet" href="gaya.css">
+</head>
+
+<body class="login-page">
+
+    <!-- Background bergerak -->
+    <div class="background-animation">
+
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+
+    <!-- Login -->
+    <main class="login-wrapper">
+
+        <section class="login-card">
+
+            <!-- Logo -->
+            <div class="login-logo">
+                📚
+            </div>
+
+            <div class="login-title">
+
+                <h1>Perpustakaan Digital</h1>
+
+                <p>
+                    Selamat datang kembali
+                </p>
+
+            </div>
+
+
+            <!-- Form -->
+            <form id="loginForm">
+
+                <!-- Username -->
+                <div class="input-group">
+
+                    <label for="username">
+                        Nama Pengguna
+                    </label>
+
+                    <div class="input-box">
+
+                        <span>👤</span>
+
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Masukkan nama pengguna"
+                            required
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Password -->
+                <div class="input-group">
+
+                    <label for="password">
+                        Password
+                    </label>
+
+                    <div class="input-box">
+
+                        <span>🔐</span>
+
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Masukkan password"
+                            required
+                        >
+
+                        <button
+                            type="button"
+                            id="showPassword"
+                            class="eye-button"
+                        >
+                            👁️
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Ingat saya -->
+                <div class="login-options">
+
+                    <label class="remember">
+
+                        <input type="checkbox">
+
+                        <span>Ingat saya</span>
+
+                    </label>
+
+                    <a href="#">
+                        Lupa password?
+                    </a>
+
+                </div>
+
+
+                <!-- Tombol -->
+                <button
+                    type="submit"
+                    class="login-button"
+                    id="loginButton"
+                >
+
+                    <span id="buttonText">
+                        🔓 Masuk ke Perpustakaan
+                    </span>
+
+                </button>
+
+            </form>
+
+
+            <!-- Daftar -->
+            <div class="register-text">
+
+                <p>
+                    Belum memiliki akun?
+                    <a href="#">Daftar sekarang</a>
+                </p>
+
+            </div>
+
+
+            <!-- Footer -->
+            <div class="login-footer">
+
+                <p>
+                    © 2026 Perpustakaan Digital Komar
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
